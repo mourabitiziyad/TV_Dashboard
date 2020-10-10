@@ -23,12 +23,12 @@ import PerfectScrollbar from "perfect-scrollbar";
 // core components
 import AdminNavbar from "components/Navbars/AdminNavbar.js";
 import Footer from "components/Footer/Footer.js";
-import Sidebar from "components/Sidebar/Sidebar.js";
+// import Sidebar from "components/Sidebar/Sidebar.js";
 import FixedPlugin from "components/FixedPlugin/FixedPlugin.js";
 
 import routes from "routes.js";
 
-import logo from "assets/img/react-logo.png";
+// import logo from "assets/img/react-logo.png";
 
 var ps;
 
@@ -111,7 +111,7 @@ class Admin extends React.Component {
     return (
       <>
         <div className="wrapper">
-          <Sidebar
+          {/* <Sidebar
             {...this.props}
             routes={routes}
             bgColor={this.state.backgroundColor}
@@ -121,7 +121,7 @@ class Admin extends React.Component {
               imgSrc: logo
             }}
             toggleSidebar={this.toggleSidebar}
-          />
+          /> */}
           <div
             className="main-panel"
             ref="mainPanel"
@@ -131,8 +131,8 @@ class Admin extends React.Component {
               {...this.props}
               // brandText={this.getBrandText(this.props.location.pathname)} //ziyad
               brandText = "First-Year Experience"
-              toggleSidebar={this.toggleSidebar}
-              sidebarOpened={this.state.sidebarOpened}
+              // toggleSidebar={this.toggleSidebar}
+              // sidebarOpened={this.state.sidebarOpened}
             />
             <Switch>
               {this.getRoutes(routes)}

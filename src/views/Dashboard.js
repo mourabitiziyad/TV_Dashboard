@@ -323,7 +323,7 @@ class Dashboard extends React.Component {
                           </td>
                           <td className="td-actions text-right">
                             <Button
-                              color="link"
+                              color="link"  
                               id="tooltip457194718"
                               title=""
                               type="button"

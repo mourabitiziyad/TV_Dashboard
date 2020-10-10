@@ -99,7 +99,7 @@ class AdminNavbar extends React.Component {
                   toggled: this.props.sidebarOpened
                 })}
               >
-                <button
+                {/* <button
                   className="navbar-toggler"
                   type="button"
                   onClick={this.props.toggleSidebar}
@@ -107,7 +107,8 @@ class AdminNavbar extends React.Component {
                   <span className="navbar-toggler-bar bar1" />
                   <span className="navbar-toggler-bar bar2" />
                   <span className="navbar-toggler-bar bar3" />
-                </button>
+                </button> */}
+                {/* ziyad */}
               </div>
               <NavbarBrand href="#pablo" onClick={e => e.preventDefault()}>
                 {this.props.brandText}
