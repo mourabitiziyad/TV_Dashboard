@@ -129,7 +129,8 @@ class Admin extends React.Component {
           >
             <AdminNavbar
               {...this.props}
-              brandText={this.getBrandText(this.props.location.pathname)}
+              // brandText={this.getBrandText(this.props.location.pathname)} //ziyad
+              brandText = "First-Year Experience"
               toggleSidebar={this.toggleSidebar}
               sidebarOpened={this.state.sidebarOpened}
             />
